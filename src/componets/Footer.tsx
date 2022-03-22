@@ -1,11 +1,9 @@
 import { styled, Typography } from '@mui/material';
 
-import { FOOTER_TEXT } from '../constants';
-
 export const Footer = () => (
     <FooterWrapper>
       <FooterText variant="caption" >
-        {FOOTER_TEXT}
+        {new Date().getFullYear()} Made by Coy Kwan
       </FooterText>
     </FooterWrapper>
   );
